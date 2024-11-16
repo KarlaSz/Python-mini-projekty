@@ -5,6 +5,7 @@
      # jesli przekroczy ostatni znak w alfabecie (jest icg 26) to wtedy ma cofnac sie na poczatek zeby nie bylo znakow spejclanych
      # key to informacja o ile liter przesuwamy sie w alfabecie
      #algorytm poprawnie tez szyfruje spacje i inne znaki spoza alfabetu, wiec 1 if przepisuje nierozpoznane znaki
+     # ASCII (ang. American Standard Code for Information Interchange) to standard kodowania znaków
      
 def encrypted(message, key):
     encrypted = ''
