@@ -58,6 +58,8 @@ else:
 print('kobiety: ', ladies)
 
 ## 2 sposob
+#Gdy chcemy wybrać tylko te elementy, które spełniają określony warunek, for pierwszy gdy dla tej listy
+
 ladies = [name for name in names if name[-1] == 'a']
 print('All Names', names)
 print('Tylko Panie', ladies)
@@ -76,5 +78,6 @@ for name in names:
 print('Witam ', formal)
 
 # 2 sposob
+#Gdy chcemy przypisać różne wartości w zależności od warunku, pierwszy if gdy warunek jest istotny
 formal = [f'Pani + {name}' if name[1] == 'a' else f'Pan {name}' for name in names]
 print(formal)
