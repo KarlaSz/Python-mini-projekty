@@ -43,3 +43,38 @@ print('KONIEC PROGRAMU')
 
 ##odpalanie kodu w Pycharm to run lub shift + f10
 
+
+## zadanie na wypisanie imienie i a jaka literke sie slowo konczy
+names = ['Maja', 'Karolina', 'Grzegorz', 'Kamil']
+ladies = []
+
+## 1 sposob
+for name in names:
+    if name[-1] == 'a':
+        ladies.append(name)
+else:
+    print('facet')
+
+print('kobiety: ', ladies)
+
+## 2 sposob
+ladies = [name for name in names if name[-1] == 'a']
+print('All Names', names)
+print('Tylko Panie', ladies)
+
+
+
+#powitanie
+formal = []
+
+for name in names:
+    if name[-1] == 'a':
+        formal.append(f'Pani {name}')
+    else:
+        formal.append(f'Pan {name}')
+
+print('Witam ', formal)
+
+# 2 sposob
+formal = [f'Pani + {name}' if name[1] == 'a' else f'Pan {name}' for name in names]
+print(formal)
