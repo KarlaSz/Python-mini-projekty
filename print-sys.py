@@ -37,3 +37,23 @@ print(1, 2, 5, 7, flush=True)
 # PVM wczytuje kod bajtowy do pamięci.
 # PVM interpretuje instrukcje bajtowe krok po kroku.
 # Instrukcje są wykonywane, a wyniki (np. dane wyjściowe) są wyświetlane.
+
+
+#sposoby drukowania print z zajec - zjazd 2
+a = 3
+b = 'ala'
+pi =3.24
+# print(a * b)
+
+print(str(a) +b)
+print(a,b, sep='', end='\n') #n przejsice do nowej lini
+print(a,b, sep='-', end='\t') #przerwa miedzy elementami, tabulator
+print(a,b, sep='-', end='+')
+print(a,b, sep='-', end='+\n')
+print(f'testest {b} {pi}')  #nie drukuje zmiennej tylko zawartosc zmiennej
+
+
+print(f'{pi:.100f}')  #okreslac ile miejsc po przecinku, 
+#okresla format wydruku liczby, czyli 100 miejsc poprzecinku tutaj, #f stringi w pythonie
+
+
