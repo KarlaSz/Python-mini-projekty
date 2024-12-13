@@ -3,6 +3,8 @@
 
 #wybralam terminal
 #komenda, -m <- oznacza,ze pracuje sie na jakims module
+#tj. pytest, jest tez unittest i narzedzia automatyczne do testow jak Selenium
+
 
 # 1. instalacja biblioteki srodowiska
 # pip install pytest
@@ -12,3 +14,25 @@
 
 # 3. wyswietlenie szczegolow testow, trzeba zmieniac nazwe pliku jak sie odpala testy dla roznych projektow
 # python -m pytest test-0.py -vvv
+
+
+#wyswietlanie testow
+
+#klasy testowe - mozna organizowac testy w klasach testowych czyli kilka testow do jednego worka swiata
+#Metody testowe: Każda metoda testowa w klasie powinna zaczynać się od test_, aby framework mógł ją automatycznie wykryć.
+
+#fixture -zamiast za kazdym razem tego nie robic danych testowych takich samych wielokrotnie to raz, unikanie powtarzajacego kodu
+#kod, który jest wykonywany przed i/lub po każdym teście, zapewniając czyste środowisko testowe.
+
+Assercje: Sprawdzają, czy wyniki testów są zgodne z oczekiwaniami (np. assertEqual, assertTrue).
+po prawej prawda jesli przejdzie test
+
+##Selenium a unittest/pytest
+# unittest/pytest służą głównie do testów jednostkowych (unit tests), które testują logikę aplikacji bez interakcji z interfejsem użytkownika.
+
+# Z kolei Selenium jest narzędziem do testowania przeglądarek, używanym do testów end-to-end (E2E). Umożliwia symulowanie działań użytkownika na stronie internetowej, takich jak klikanie, wypełnianie formularzy.
+
+#Różnice:
+
+#unittest/pytest: szybkie, testują logikę aplikacji, niezależne od interfejsu.
+#Selenium: wolniejsze, testują całą aplikację w środowisku przeglądarkowym, bardziej złożone.
