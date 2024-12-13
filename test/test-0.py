@@ -30,17 +30,3 @@ def test_is_not_adult():
 
 #testy to swiedna dokumentacja, bo opisuje jak co dziala
 
-## TEST desc
-#odpalanie testow moze byc z pycharma lub z konsoli CLI cmd terminal
-
-#wybralam terminal
-#komenta, -m <- oznacza,ze pracuje sie na jakims module
-
-# 1. instalacja biblioteki srodowiska
-# pip install pytest
-
-# 2. uruchomienie testow
-# python -m pytest nazwa_pliku.py
-
-# 3. wyswietlenie szczegolow testow
-# python -m pytest test-0.py -vvv

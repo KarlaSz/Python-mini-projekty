@@ -1,0 +1,14 @@
+## TEST desc
+#odpalanie testow moze byc z pycharma lub z konsoli CLI cmd terminal
+
+#wybralam terminal
+#komenda, -m <- oznacza,ze pracuje sie na jakims module
+
+# 1. instalacja biblioteki srodowiska
+# pip install pytest
+
+# 2. uruchomienie testow
+# python -m pytest nazwa_pliku.py
+
+# 3. wyswietlenie szczegolow testow, trzeba zmieniac nazwe pliku jak sie odpala testy dla roznych projektow
+# python -m pytest test-0.py -vvv
