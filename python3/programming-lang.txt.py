@@ -1,6 +1,6 @@
 #  2 jezyki, programowania i maszynowany, a pomiedzy jest kod bajtowym za pomocs ktorego ze soba rozmawiaja?
-# ChatGPT said:
-# ChatGPT
+
+
 # Dokładnie! Wygląda to tak:
 #
 # 1. Język programowania
