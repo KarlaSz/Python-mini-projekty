@@ -55,3 +55,13 @@ print(accounts)
 
 group_account = karo_account + saving_account
 print(group_account)
+
+##ine metody
+# 4. __len__ – Długość obiektu
+# Definiuje zachowanie wbudowanej funkcji len() dla obiektów klasy.
+#5 __getitem__, __setitem__, __delitem__ – Dostęp do elementów
+# Używane do implementacji zachowania jak w listach lub słownikach.
+#6. __eq__, __lt__, __le__, __gt__, __ge__, __ne__ – Porównywanie obiektów
+# Definiują zachowanie operatorów porównania (==, <, >, itd.).
+#  __add__, __sub__, __mul__, __truediv__ – Operatory arytmetyczne
+# Definiują zachowanie operatorów matematycznych.
