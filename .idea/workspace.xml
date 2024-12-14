@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d5635ec-42d3-4b03-8211-d48ab18c0e6e" name="Changes" comment="test 0 file" />
+    <list default="true" id="7d5635ec-42d3-4b03-8211-d48ab18c0e6e" name="Changes" comment="test 0 file">
+      <change afterPath="$PROJECT_DIR$/class-OOP/class_flat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/kompilacja_kodu.txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python3/programming-lang.txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.class.executor": "Run",
+    "Python.class_flat.executor": "Run",
     "Python.class_special_methods.executor": "Run",
     "Python.main.executor": "Run",
     "Python.pygame.executor": "Run",
@@ -53,6 +59,11 @@
     "last_opened_file_path": "C:/Users/karos/PycharmProjects/Python-mini-projekty/class-OOP"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karos\PycharmProjects\Python-mini-projekty\class-OOP" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="class_special_methods" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python-mini-projekty" />
