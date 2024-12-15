@@ -5,6 +5,8 @@
 # Python używa ich do definiowania zachowań wbudowanych funkcji,
 # operatorów i wbudowanych mechanizmów języka
 
+#wywolywane sa nie jawnie i wtedy kiedys cos robimy
+
 #metody specjalne - magic methos, zawsze maja 2 podkreslenia z przodu i z tylu
 
 class BankAccount:
@@ -18,14 +20,14 @@ class BankAccount:
 
     #wyswietlanie obiektu, opis zamiast info systemowe na jakiej pozycji w pamieci jest obiekt
     #metoda specjalna str sluzy do zwracania stringa, a nieprintowania go
+    #1. wtedy gdy zamieniamy obiekt na string i wyswietlenie jego zawartosci
     def __str__(self):
         # return f'W banku jest {self.amount}'
         return self.get_info()
 
-    # Reprezentacja
-    # obiektu
-    # dla
-    # debugowania
+    # jest podobna do str metody,ale nie zawsze string jest wywolywany
+    #wtedy gdy odwolujemy sie do listy i obiekty sa elementami tej listy, wiec mozemy je zmienic na stringi
+    # sa dwie metody bo roznia sie wywolywanie, w zalezno od danej sytuacji co chcemy uzyskac
     def __repr__(self):
         return self.get_info()
 
@@ -43,6 +45,8 @@ class BankAccount:
             self.amount + other.amount)
 
         return new_account
+
+    #kazda metoda specjlan musi cos zwracac i zarazem jest poleceniem operacji i taka warunkiem
 
 
 karo_account = BankAccount('Karo',100)
