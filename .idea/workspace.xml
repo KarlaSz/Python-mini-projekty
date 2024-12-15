@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d5635ec-42d3-4b03-8211-d48ab18c0e6e" name="Changes" comment="test 0 file">
-      <change afterPath="$PROJECT_DIR$/class-OOP/dziedziczenie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class-OOP/super_overwrite_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class-OOP/class_special_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/class-OOP/class_special_methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python.enkapsulacja.executor": "Run",
     "Python.main.executor": "Run",
     "Python.pygame.executor": "Run",
+    "Python.super_overwrite_methods.executor": "Run",
     "Python.test-0.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
